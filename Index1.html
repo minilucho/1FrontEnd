@@ -1,69 +1,176 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Primer página web</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/509094c587.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" >
   </head>
   
   <body>
   
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> Argentina Programa   </a>
-          
+          <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"> 
+            <img src="assets/img/arg-programa.png" class="logo" alt="logo-argentinaprograma">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+                <a class="nav-link" href="#ancla-1">Acerca de</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Educación</a>
+                <a class="nav-link" href="#ancla-2">Educación</a>
               </li>
              <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#ancla-3">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#ancla-4">Contacto</a>
+              </li>
+             
+              <!-- Button trigger modal -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-user" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                </a>
               </li>
             </ul>
-           </div>
+          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+  
+ 
+  <div class="banner">
+        <img src="assets/img/workplace-with-smartphone-laptop-on-black-table-top-view-copyspace-background.jpg"  alt="foto">
+      </div>
      
-     <ul class="list-group">
-      <div  class="card w-100">
-        <div  class="card-body"> 
-          <i> <li  class="list-group-item"><h3><ins>Acerca de</ins> </h3> </i>
-          <p   class="h6"> Mi nombre es Alexis, nuevo en este mundo de programación.</p> </div> </div> 
-        
-        </li>
-        <ul  class="list-group">
-          <div   class="card w-100">
-            <div class="card-body">
-              <i> <li class="list-group-item"> <h3><ins> Educación</ins></h3> </i>
-            <p class="h6">  </p> </div> </div>
-          </li>
-          <ul class="list-group">
-            <div  class="card w-100">
-              <div   class="card-body">
-                <i><li class="list-group-item"> <h3><ins> Experiencia</ins></h3></1>
-              <p class="h6">  </p>  </div> </div>
-            </li>
+      <section> 
+      <div class="estilo">
+      <div id="logoPerfil"> 
+      <img src="assets/img/IMG_20211007_190939_580.jpg" width="350" height="450"   class ="img-thumbnail rounded-circle mx-auto d-block" alt="texto alternativo">
+    </div>
+      <h1 class="nombrePerfil">Alexis Villca</h1>
+      <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+    </div> 
+  </section> 
+  
+      <section id="acerca-de">
+      <div> 
+        <ul class="list-group">
+          <div class="card w-100">
+            <a name="ancla-1"></a>
+            <i><li  class="list-group-item"> 
+              <h3><ins>Acerca de</ins></h3>
+            </i>
+            <p>Nuevo en este mundo de programación.</p>
+            <div class="btn-edit">
+              <a href="#" class="btn-right">
+              <i class="fa fa-pen"></I>
+              </a>
+              </div>
+          </div> 
+        </ul>
+      </div>
+    </section>   
+   
+    <section id="educacion">  
+      <div>
+          <ul  class="list-group">
+              <div   class="card w-100">
+                <a name="ancla-2"></a>
+                <i><li class="list-group-item">
+                  <h3><ins> Educación</ins></h3>
+                </i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugiat temporibus esse nisi corrupti, minima quia eos rem natus aperiam assumenda veniam dolore labore consequuntur quis iste laudantium pariatur incidunt.</p>
+                <div class="btn-edit">
+                  <a href="#" class="btn-right">
+                  <i class="fa fa-pen"></I>
+                  </a>
+                  </div>
+              </div>
+            </ul>
+      </div>
+    </section>
+    
+    <section id="experiencia">
+        <div>
             <ul class="list-group">
               <div  class="card w-100">
-                <div  class="card-body">
-                  <i><li class="list-group-item"> <h3><ins> Contacto </ins></h3></1>
-                <p class="h6">  </p>  </div> </div>
-              </li>
-           
-           </ul>
-          
+                <a name="ancla-3"></a>
+                <i><li class="list-group-item">
+                    <h3><ins>Experiencia</ins></h3>
+                </i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus nisi quo facilis corrupti illo commodi maiores reiciendis explicabo veritatis a, asperiores culpa eum suscipit illum sunt fugiat! Recusandae, temporibus voluptatum!</p>
+                <div class="btn-edit">
+                  <a href="#" class="btn-right">
+                  <i class="fa fa-pen"></I>
+                  </a>
+                  </div>
+              </div>
+            </ul>
+          </div>
+        </section> 
+        <section id="contacto">
+          <div> 
+            <ul class="list-group">
+              <div  class="card w-100">
+                <a name="ancla-4"></a>
+                <i><li class="list-group-item"> <h3><ins> Contacto </ins></h3></i>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero deserunt facere inventore nesciunt, vel aperiam esse aut, alias odio facilis sint accusamus aliquam odit? Natus, laboriosam. Nostrum, eligendi in.</p>
+                <button type="button" class="btn btn-link">Facebook</button> <br><button type="button" class="btn btn-link">Instagram</button> 
+                <div class="btn-edit">
+                  <a href="#" class="btn-right">
+                  <i class="fa fa-pen"></I>
+                  </a>
+                  </div>
+              </div>
+            </ul>
+          </div>
+        </section>
+         
+        
+        <!-- Modal login -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="email@ejemplo.com">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Escribir contraseña">
+                    </div>
+                    
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  
+                  <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+          <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      </body>
+  </html>
   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</body>
-</html>
+  

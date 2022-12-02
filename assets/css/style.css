@@ -1,0 +1,57 @@
+.estilo {
+  
+   margin: 10% 0.5%  ;
+   padding: 1.25%;
+   
+}
+body {
+
+   background-color: #1d1010;
+   
+
+}
+.logo {
+   height: auto;
+   width: auto;
+   max-width: 100px;
+   max-height: 100px;
+ 
+
+}
+.navbar-nav>li>a:hover {
+  color: rgb(104, 173, 104);
+}
+.nombrePerfil {
+   color: beige;
+   font-size: 5rem;
+   text-align: center;
+   margin-top: 4%;
+}
+div.banner img{
+   width: 100%;
+}
+#logoPerfil{
+ 
+   margin-top: -55rem;
+}
+#acerca-de{
+   margin: 10% 0.5%;  
+   padding: 1.25%;
+   margin-top: -20%;
+}
+
+#educacion{
+   margin: 10% 0.5%;  
+   padding: 1.25%;
+   
+}
+#experiencia {
+   margin: 10% 0.5%;  
+   padding: 1.25%;
+   
+}
+#contacto {
+   margin: 10% 0.5%;  
+   padding: 1.25%;
+   
+}
